@@ -1,0 +1,93 @@
+body {
+  background-color: white;
+  color: white;
+}
+
+.button-upgrade {
+  background-color: white;
+  border-radius: 8px;
+  border-color: black;
+  margin: 10px;
+  width: 100px;
+  height: 40px;
+  color: black;
+}
+
+.h1 {
+  color: black;
+  margin: 30px;
+  line-height: 1.3;
+  font-size: 1100;
+  font-family: 'Book Antigua';
+  text-align: left;
+}
+
+.h4 {
+  color: white;
+  font-family: 'Myriad';
+  line-height: 1.5;
+  font-size: 90;
+  text-align: left;
+}
+
+.h5 {
+  color: gray;
+  font-family: 'Myriad';
+  line-height: 1.5;
+  font-size: 90;
+  text-align: left;
+}
+
+.h6 {
+  color: gray;
+  font-family: 'Myriad';
+  line-height: 1.5;
+  font-size: 80;
+}
+
+.p {
+  color: black;
+  font-family: 'Times New Roman';
+  line-height: 2;
+  font-size: 700;
+  text-align: left;
+}
+
+.footer {
+  background-color: #181818;
+}
+
+.footer-item {
+  color: gray;
+  font-family: 'Myriad';
+  line-height: 1.5;
+  font-size: 70;
+}
+
+.nav-link {
+  color: gray;
+  font-family: 'Myriad';
+  line-height: 1.5;
+  font-size: 70;
+}
+
+input[type=text] {
+  width: 130px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px white;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
